@@ -11,7 +11,7 @@ body {
     width: 100%;
     position: fixed;
     background: black;
-    padding: 8px 16px;
+    padding: 15px 16px;
     z-index: 1;
 }
 
@@ -24,7 +24,15 @@ body {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 22px;
+    height: 22px;
+    display: inline-block;
+}
+
+.main-header__brand img {
+    height: 170%;
+    margin-top: -20px;
+    margin-bottom: -7px;
 }
 
 .main-nav {

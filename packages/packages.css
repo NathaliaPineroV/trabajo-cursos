@@ -40,6 +40,7 @@ main {
     color: white;
     background: rgb(247, 164, 178);
     padding: 8px;
+    border-radius: 5px;
 }
 
 .package__subtitle {
