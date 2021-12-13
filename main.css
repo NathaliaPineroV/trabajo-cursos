@@ -34,12 +34,44 @@ body {
     left: 3%;
 }
 
-.plan__list {
-   padding: 1rem;
-   text-align: center;
+#plans {
+    width: 100%;
+    height: 100%;
 }
 
-.plan {
+.plan__list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 2rem;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan{
+    max-width: 20rem;
+    min-width: 10rem;
+    background-color: pink;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    transition: 0,2;
+}
+
+.plan:hover{
+    transform: translateX(1rem);
+    transition: 0,4;
+}
+
+
+
+/* .plan__list {
+   padding: 1rem;
+   text-align: center;
+} */
+
+/* .plan {
     background: pink;
     text-align: center;
     padding: 1rem;
@@ -52,7 +84,7 @@ body {
     row-gap: 2rem;
     flex-flow: column;
 
-}
+} */
 
 [class*="plan"]{
     flex-basis: 1rem;
@@ -111,6 +143,7 @@ color: white;
 .plan__feature {
     margin: 5px 0;
 }
+
 
 /* cambio desde aqui */
 /*  
